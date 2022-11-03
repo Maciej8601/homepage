@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.theme {
+    font: bold 16px;
+}
+
+.header {
+    text-align: center;
+    font: bold 40px green;
+}
+
+.box {
+    margin: 1.5px;
+}
+
+.list {
+    margin: 1.5px;
+}
+
+.body {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1000px;
+    background-color: #eeeeee;
+    color: #0a0a0a;
+    font-family: 'Signika', sans-serif;
+}
+
+.dark {
+    background-color: #afafaf;
+    color: #eeeeee;
+}
+
+.footer {
+    text-align: center;
+    background-color: #afafaf;
+    padding: 10px;
+}
+
+.subHeader {
+    background-color: #6a6969;
+    text-align: left;
+    margin: 20px;
+    max-width: 500px;
+    padding: 10px;
+    text-shadow: 1px 1px 10px #9E9E9E;
+}
+
+.subHeader:hover {
+    background-color: #797474;
+    text-shadow: 1px 1px 10px black;
+}
+
+
+.button1 {
+    background-color: #9E9E9E;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.button2 {
+    background-color: #9E9E9E;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button1:hover {
+    background-color: hsl(0, 0%, 75%);
+}
+
+.button2:hover {
+    background-color: darkgrey;
+}

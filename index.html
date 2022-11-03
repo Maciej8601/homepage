@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maciej Łukaszewski- snowboarder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1>Moja strona</h1>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li class="navigation__listItem"><a href="#o-mnie" class=" navigation__link">O mnie</a></li>
+            <li class="navigation__listItem"><a href=" #Moje-podroze" class=" navigation__link">Moje podróże</a></li>
+            <li class="navigation__listItem"><a href=" #od-zera" class=" navigation__link">Od zera do developera</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <p><button class="button1">Włącz <span class="themeName">ciemne</span> tło</button></p>
+        <a href="https://ibb.co/P4BMB4f"><img src="https://i.ibb.co/J2XqX2M/1.jpg" alt="1" border="0" width="150"
+                height="200" class="zdjecie"></a>
+        <p><button class="button2"><span class="remove">Usuń</span> zdjęcie</button></p>
+        <section>
+            <div class="box">
+                <p>Witaj wędrowcze na mojej stronie. <br>Jeśli nie wiesz co <strong>Cię</strong> tutaj przywiodło
+                    wystarczy,
+                    że
+                    poczekasz
+                    a wszystko stanie się <em>jasne</em>.</p>
+            </div>
+            <h2 id="o-mnie" class="subHeader">O mnie</h2>
+            <p>Mam 36 lat i obecnie pracuje w branży handlowej. Potrafie <b>skręcać meble</b> i uczę się jeździć na
+                <i>snowboardzie</i>.
+            </p>
+            <div id="Moje-podroze">
+                <table class="table">
+                    <caption>
+                        <h2 class="subHeader">Moje podróże ze snowboardem</h2>
+                    </caption>
+                    <tr class="table__Row">
+                        <th class="table__Cell table__Header" scope="col">Data</th>
+                        <th class="table__Cell table__Header" scope="col">Państwo</th>
+                        <th class="table__Cell table__Header" scope="col">Miasto</th>
+                        <th class="table__Cell table__Header" scope="col">Moja ocena <br>(1-5)</th>
+                    </tr>
+                    <tr class="table__Row">
+                        <th class="table__Cell table__Header" scope="row">2019</th>
+                        <td class="table__Cell">Włochy</td>
+                        <td class="table__Cell"><a
+                                href="https://www.skiinfo.pl/tyrol-poludniowy/plan-de-corones-kronplatz/warunki-narciarskie"
+                                target="_blank" class="table__Link">Kronplatz</a>
+                        </td>
+                        <td class="table__Cell">3,7</td>
+                    </tr>
+                    <tr class="table__Row">
+                        <th class="table__Cell table__Header" scope="row" rowspan="2">2020</th>
+                        <td class="table__Cell">Włochy</td>
+                        <td class="table__Cell">
+                            <a href="https://www.skiinfo.pl/lombardia/livigno/osrodek-narciarski" target="blank"
+                                class="table__Link">Livigno</a>
+                        </td>
+                        <td class="table__Cell">4</td>
+                    </tr>
+                    <tr class="table__Row">
+                        <td class="table__Cell">Francja</td>
+                        <td class="table__Cell"><a
+                                href="https://www.skiinfo.pl/alpy-polnocne/tignes/warunki-narciarskie" target="_blank"
+                                class="table__Link">Tignes</a></td>
+                        <td class="table__Cell">3,6</td>
+                    </tr>
+                    <tr class="table__Row">
+                        <th class="table__Cell table__Header" scope="row">2022</th>
+                        <td class="table__Cell">Austria</td>
+                        <td class="table__Cell"><a
+                                href="https://www.skiinfo.pl/styria/schladming-planai-hochwurzen/warunki-narciarskie"
+                                target="_blank" class="table__Link">Schladming</a></td>
+                        <td class="table__Cell">3,8</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h2 id="od-zera" class="subHeader">Od zera do developera.</h2>
+            <div class="lista box">
+                <p>Podróż ta nie będzie łatwa, <br> możliwe też, że będzie bolesna, <br> tylko czas pokaże czy była
+                    warta
+                    włożonego weń wysiłku.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Wszelkie prawa zastrzeżone.</footer>
+</body>
+
+</html>

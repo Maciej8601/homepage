@@ -1,0 +1,38 @@
+.table {
+    border-collapse: collapse;
+    max-width: 400px;
+    overflow-x: auto;
+}
+
+.table__Row:focus {
+    background-color: brown;
+}
+
+.table__Cell {
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+    background-color: #6a6969;
+    color: #0a0a0a;
+}
+
+.table__Header {
+    background-color: #494949;
+}
+
+
+.table__Link {
+    color: #0a0a0a;
+    text-decoration: none;
+}
+
+.table__Link:hover {
+    color: #000000;
+    border-bottom: 2px solid;
+    outline: none;
+    text-shadow: 1px 1px 10px black;
+}
+
+.table__Link:active {
+    background-color: #9f9e9e;
+}

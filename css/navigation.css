@@ -1,0 +1,23 @@
+.navigation {
+    padding: 10px;
+    margin: 10px;
+}
+
+.navigation__listItem {
+    list-style-type: none;
+}
+
+.navigation__link {
+    color: hsl(219, 87%, 36%);
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: rgb(2, 51, 141);
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: crimson;
+}

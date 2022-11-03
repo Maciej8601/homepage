@@ -8,6 +8,14 @@
     background-color: brown;
 }
 
+.table__Row:hover {
+    background-color: #6a6969;
+    color: #000000;
+    border-bottom: 2px solid;
+    outline: none;
+    text-shadow: 1px 1px 10px black;
+}
+
 .table__Cell {
     border: 1px solid #000000;
     padding: 20px;

@@ -17,12 +17,12 @@
 
 
     button1.addEventListener("click", onChangeBackgroundClick)
-};
 
-const removePhoto = () => {
-    const zdjecie = document.querySelector(".zdjecie");
-    zdjecie.remove()
-};
+    const removePhoto = () => {
+        const zdjecie = document.querySelector(".zdjecie");
+        zdjecie.remove()
+    };
 
-const button2 = document.querySelector(".button2");
-button2.addEventListener("click", removePhoto);
+    const button2 = document.querySelector(".button2");
+    button2.addEventListener("click", removePhoto);
+};
